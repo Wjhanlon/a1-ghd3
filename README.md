@@ -16,5 +16,11 @@ https://d3js.org/d3-delaunay/voronoi - used starting code for voronoi to generat
 ![alt text](image-1.png)
 
 Technical Achievements
+- Animated shape selector: I used D3 transitions to shrink and enlarge shapes around the center of the display
+- Event dispatch: I used d3.dispatch as an event handler to connect clicks in the selection panel to a larger display
+- Voronoi background: I generated 250 random points, and used the Delaunay triangulation to render each cell as an svg path
 
 Design Achievements
+- Stained glass appearance: randomly selected colors from the palette to fill in the cells of the voronoi background to create a stained glass effect
+- Clear distinction between the background image and foreground
+- Shape selector and window is centered
