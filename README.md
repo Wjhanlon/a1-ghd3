@@ -17,7 +17,7 @@ https://d3js.org/d3-delaunay/voronoi - used starting code for voronoi to generat
 
 Technical Achievements
 - Animated shape selector: I used D3 transitions to shrink and enlarge shapes around the center of the display
-- Event dispatch: I used d3.dispatch as an event handler to connect clicks in the selection panel to a larger display
+- Linked View: I used d3.dispatch as an event handler to connect clicks in the selection panel to a larger display
 - Voronoi background: I generated 250 random points, and used the Delaunay triangulation to render each cell as an svg path
 
 Design Achievements
