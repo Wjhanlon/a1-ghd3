@@ -300,19 +300,18 @@
         .select("body")
         .insert("svg", ":first-child")
         .attr("id", "background")
-        .attr("viewBox", "0 0 1000 700")
-        .attr("preserveAspectRatio", "none")
-        .attr("aria-hidden", "true");
+        .attr("viewBox", "0 0 1920 1080")
+        .attr("preserveAspectRatio", "none");
 
       //generate random points, so the background is different every time
       const points = [];
       for (let i = 0; i < 250; i++) {
-        points.push([Math.random() * 1000, Math.random() * 700]);
+        points.push([Math.random() * 1920, Math.random() * 1080]);
       }
 
       // code used from the d3-voronoi example and the idea got from https://observablehq.com/@d3/voronoi-labels
       const delaunay = d3.Delaunay.from(points);
-      const voronoi = delaunay.voronoi([0, 0, 1000, 700]);
+      const voronoi = delaunay.voronoi([0, 0, 1920, 1080]);
 
       //fills it all in with colors and renders them
       background
