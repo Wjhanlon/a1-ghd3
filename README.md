@@ -7,10 +7,10 @@ I started by making the shapes required by the assignment in a container svg, an
 
 I did not start with any code, but I used these for references and for other things.
 Sources:
-https://observablehq.com/@d3/color-schemes - color palette site
-https://observablehq.com/@d3/voronoi-labels - the specific inspiration for my background
-https://d3js.org/d3-dispatch - used to connect the clicking to the animation
-https://d3js.org/d3-delaunay/voronoi - used starting code for voronoi to generate my background
+- https://observablehq.com/@d3/color-schemes - color palette site
+- https://observablehq.com/@d3/voronoi-labels - the specific inspiration for my background
+- https://d3js.org/d3-dispatch - used to connect the clicking to the animation
+- https://d3js.org/d3-delaunay/voronoi - used starting code for voronoi to generate my background
 
 ![alt text](image.png)
 ![alt text](image-1.png)
