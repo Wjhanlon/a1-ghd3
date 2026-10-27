@@ -1,6 +1,7 @@
 # Assignment 1 - Hello World: GitHub and d3
 
 William Hanlon
+https://wjhanlon.github.io/a1-ghd3/ 
 
 Description:
 I started by making the shapes required by the assignment in a container svg, and realized that it looked a lot like a selection menu. From there I created a svg above it that displays a larger version of whichever shape is chosen and animated between the ones chosen. I also wanted to explore how D3 could be used visually so I picked my favorite of the designs I saw to see if I could come up with a way to turn it into a background for the shape picker. I went with a Voronoi graph that randomly picks points, as I liked how it reminded me of stained glass. For the color palette (the really long const, sorry for the graders scrolling through it), I found a color scheme for d3 page, on the same website that the design gallery was on, and used it.
